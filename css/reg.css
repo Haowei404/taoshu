@@ -1,0 +1,229 @@
+.con {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: #c7744f;
+}
+
+#page, #site-nav .quick-menu .cart .car, #site-nav .quick-menu li, #site-nav .search .menu-bd button, #site-nav .search .menu-hd .car {
+  background: transparent url(../img/header-2.png) no-repeat 999em 0;
+  background-position-x: 999em;
+  background-position-y: 0px;
+}
+
+#header {
+  position: relative;
+  padding: 0;
+  height: 118px;
+}
+
+#header #head-wrapper {
+  padding-top: 15px;
+  height: 77px;
+  position: relative;
+  z-index: -1;
+}
+
+#header #head-wrapper .logo {
+  float: left;
+  padding-top: 0;
+}
+
+#content .flowsteps .current, #content .flowsteps .current span {
+  background-color: #546f60;
+  background-position: 0 0;
+  color: #fff;
+}
+
+#content .flowsteps li {
+  background: url(../img/flowsteps.png) no-repeat 0 0;
+  color: #888;
+}
+
+#content {
+  height: 23px;
+  margin-top: 5px;
+  position: relative;
+}
+
+#content .flowsteps {
+  height: 23px;
+  margin-top: 5px;
+}
+
+#content .flowsteps ol {
+  position: relative;
+  overflow: hidden;
+  background: #e4e4e4;
+}
+
+#content .flowsteps ol li {
+  width: 50%;
+  float: left;
+  height: 23px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+}
+
+#content .flowsteps .current {
+  background-color: #546f60;
+  background-position: 0 0;
+  color: #fff;
+}
+
+#content .flowsteps span {
+  display: block;
+}
+
+#content .flowsteps .first {
+  background-position: 0 -69px !important;
+}
+
+#content .flowsteps .next {
+  background-position: 0 -23px !important;
+}
+
+#content .main-wrap {
+  float: left;
+  width: 80%;
+  min-height: 1px;
+  margin-right: 200px;
+}
+
+#content .main-wrap .registerform .form {
+  margin-top: 40px;
+}
+
+#content .main-wrap .registerform .form .field {
+  overflow: hidden;
+  clear: both;
+  width: 710px;
+  margin-bottom: 20px;
+  padding: 5px 5px 5px 0;
+}
+
+#content .main-wrap .registerform .form .field .codeimg {
+  margin-top: 5px;
+  float: left;
+  margin-left: 10px;
+}
+
+#content .main-wrap .registerform .form .field label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+#content .main-wrap .registerform .form .field input {
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  vertical-align: middle;
+  width: 200px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #ccc;
+  margin-top: 3px;
+  margin-left: 24px;
+  float: left;
+}
+
+#content .main-wrap .registerform .form .field .tips {
+  display: none;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #c7744f;
+  vertical-align: middle;
+}
+
+#content .main-wrap .registerform .form .field #protocol-con {
+  width: 600px;
+  height: 80px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 8px;
+  overflow-y: scroll;
+  color: #666;
+}
+
+#content .main-wrap .registerform .form .field .btn-register {
+  background: url(../img/bg-btn.png) no-repeat scroll 0 -144px transparent;
+  height: 36px;
+  width: 131px;
+  border: 0 none;
+  cursor: pointer;
+  display: block;
+  margin-left: 124px;
+}
+
+#content .main-wrap .registerform .form .active {
+  box-shadow: 5px 5px 0 #F3F3F3;
+  background-color: #FFF5CC;
+  border: 1px solid #d7c2ac;
+  padding: 5px 5px 5px 0;
+}
+
+#content .main-wrap .registerform .form .error {
+  display: none;
+  background-position: 3px 3px;
+  border-color: #ff8080;
+  background-color: #fff2f2;
+  float: left;
+  margin-left: 10px;
+  padding: 2px 10px 2px 23px;
+  background-image: url(../img/msg_bg.png);
+  background-repeat: no-repeat;
+  border-width: 1px;
+  margin-top: 4px;
+  border-style: solid;
+}
+
+#content .main-wrap .registerform .form .error span {
+  display: block;
+  line-height: 18px;
+}
+
+#content .main-wrap .registerform .form .ok {
+  display: none;
+  background-position: 3px -247px;
+  background-color: #f0ffe5;
+  border-color: #4dbf00;
+  float: left;
+  padding: 2px 10px 2px 10px;
+  background-image: url(img/msg_bg.png);
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 4px;
+  margin-left: 15px;
+}
+
+#content .main-wrap .registerform .form .ok span {
+  display: block;
+  line-height: 18px;
+}
+
+#content .col-sub {
+  position: absolute;
+  top: 70px;
+}
+
+#content .col-sub #right {
+  font-size: 14px;
+  width: 200px;
+  position: absolute;
+  left: 1000px;
+}
+
+#content .col-sub #right a {
+  color: #c7744f;
+  text-decoration: underline;
+}

@@ -1,0 +1,667 @@
+a:hover {
+  text-decoration: underline;
+  color: #c7744f;
+}
+
+.ts-cart-info, .ts-cart-error, .ts-cart-Prompt, .ts-close, .ts-action-hint .ts-long-btn, .ts-action-hint .ts-long-btn1 {
+  background: url("../img/cartbg.png") no-repeat scroll 0 0 transparent;
+}
+
+.img100 {
+  height: 100px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.img100 img {
+  display: block;
+  margin: 0 auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.img130 {
+  display: block;
+  height: 130px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 130px;
+  position: relative;
+}
+
+.img130 img {
+  display: block;
+  margin: 0 auto;
+  max-height: 130px;
+  max-width: 130px;
+  vertical-align: middle;
+}
+
+.ks-overlay {
+  position: absolute;
+}
+
+.ts-cart-info {
+  background-color: #F0FFE5;
+  background-position: -132px 18px;
+  border: 1px solid #4DBF00;
+  color: #404040;
+  min-height: 112px;
+  height: 112px;
+  width: 363px;
+  z-index: 99999;
+}
+
+.ts-action-hint {
+  margin-left: 60px;
+}
+
+.ts-action-hint h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.ts-action-hint p {
+  margin: 8px 0 10px;
+  color: #404040;
+}
+
+.ts-action-hint em {
+  color: #FF4A00;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.ts-action-hint .ts-price {
+  font-size: 16px;
+  color: #FF4A00;
+}
+
+.ts-action-hint strong {
+  margin: 0 5px;
+}
+
+.ts-action-hint .ts-skin {
+  margin-right: 25px;
+  padding: 0;
+}
+
+.ts-action-hint .ts-long-btn {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 100px;
+}
+
+.ts-action-hint .ts-long-btn1 {
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 100px;
+  background-position: 0 -100px;
+}
+
+.ks-ext-close {
+  height: 18px;
+  width: 18px;
+  border: 1px solid transparent;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  vertical-align: middle;
+  outline: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ks-ext-close .ks-ext-close-x {
+  display: block;
+  background: no-repeat;
+  background-image: url("../img/close.png");
+  height: 13px;
+  text-indent: -9999px;
+  width: 13px;
+  margin: 2.5px;
+}
+
+a.btn-sbuy, a.btn-sadd, a.btn-snostock {
+  background: url("../img/bg-btn.png") no-repeat scroll 0 -180px transparent;
+  display: block;
+  height: 25px;
+  width: 90px;
+}
+
+a.btn-sadd {
+  background-position: 0 -205px;
+}
+
+.price {
+  color: #555;
+  height: 20px;
+  white-space: nowrap;
+}
+
+.old-price {
+  background: url("../img/bg.png") no-repeat scroll 0 -422px transparent;
+  color: #757575;
+  font-weight: normal;
+  padding-right: 5px;
+  text-decoration: line-through;
+}
+
+.new-price {
+  background: url("../img/bg.png") no-repeat scroll 0 -420px transparent;
+  color: #ff4a00;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.price span {
+  line-height: 25px;
+  padding-left: 12px;
+}
+
+.price {
+  color: #555;
+  height: 20px;
+  white-space: nowrap;
+}
+
+.pages span, .pages a {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  margin-right: 5px;
+  overflow: hidden;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.page-cur {
+  background: none repeat scroll 0 0 #566e5e;
+  border: 1px solid #566e5e;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.recommend a.prev, .recommend a.next, .recommend a.prev:hover, .recommend a.next:hover {
+  width: 13px;
+  height: 63px;
+  cursor: pointer;
+  background: url(../img/bg.png) 0 0 no-repeat;
+  display: block;
+  position: absolute;
+  top: 47px;
+}
+
+.book-ul {
+  padding: 0 8px 8px;
+}
+
+.book-ul li {
+  height: 23px;
+  line-height: 23px;
+  overflow: hidden;
+  padding-left: 2px;
+  position: relative;
+  width: 215px;
+  box-sizing: border-box;
+}
+
+.book-ul li .tbook-img {
+  display: none;
+  float: left;
+}
+
+.book-ul li strong {
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  height: 14px;
+  line-height: 12px;
+  margin-right: 4px;
+  padding-top: 4px;
+  text-align: center;
+  width: 14px;
+}
+
+.book-ul li.selected {
+  background: url("../img/bg.png") repeat-x scroll 0 -825px transparent;
+  height: 80px;
+  line-height: 18px;
+  margin-bottom: 3px;
+  padding-top: 5px;
+}
+
+.book-ul li.selected .tbook-img {
+  display: block;
+  float: left;
+}
+
+.book-ul li.hot-3 strong {
+  background: url("../img/bg.png") no-repeat scroll 0 -306px transparent;
+}
+
+#content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#content .crumbs {
+  margin: 10px 0 15px 8px;
+  height: 18px;
+  line-height: 18px;
+}
+
+#content .crumbs span {
+  float: left;
+}
+
+#content .crumbs a {
+  float: left;
+  margin-right: 4px;
+  padding: 0 10px 0 0;
+  background: url(../img/crumbs.png) no-repeat 100% 50%;
+}
+
+#content .col-main {
+  float: left;
+  width: 100%;
+}
+
+#content .col-main .left-sub {
+  float: left;
+  width: 220px;
+}
+
+#content .col-main .left-sub #sub-catalog {
+  border-color: #d8d8d8;
+  border-style: solid solid none;
+  border-width: 1px 1px medium;
+  margin-top: 35px;
+  width: 220px;
+}
+
+#content .col-main .left-sub #sub-catalog dl dt {
+  background: none repeat scroll 0 0 #F8F8F8;
+  border-bottom: 1px solid #E5E5E5;
+  font-weight: bold;
+  font-size: 14px;
+  height: 30px;
+  padding-left: 12px;
+  padding-top: 9px;
+}
+
+#content .col-main .left-sub #sub-catalog dl dd {
+  border-bottom: 1px solid #E5E5E5;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 17px;
+}
+
+#content .col-main .left-sub #sub-catalog dl dd a {
+  background: url("../img/bg-line.png") 0 -6px no-repeat;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  margin: 0 8px;
+}
+
+#content .col-main .left-sub .left-book {
+  height: 330px;
+  overflow: hidden;
+  width: 220px;
+  border: 1px solid #d8d8d8;
+  margin-top: 10px;
+}
+
+#content .col-main .left-sub .left-book .left-title {
+  font-size: 14px;
+  background: none repeat scroll 0 0 #f8f8f8;
+  border-bottom: 1px solid #d8d8d8;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 5px;
+  color: #546f60;
+  padding: 0 15px;
+}
+
+#content .col-main .left-sub .zt-ul {
+  margin-top: 10px;
+}
+
+#content .col-main .main-wrap {
+  position: relative;
+  margin-left: 316px;
+}
+
+#content .col-main .main-wrap .recommend {
+  width: 945px;
+  height: 110px;
+  margin-top: 10px;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+  position: relative;
+}
+
+#content .col-main .main-wrap .recommend .bar {
+  width: 45px;
+  height: 46px;
+  cursor: pointer;
+  background: url(../img/bg.png) 0 -330px no-repeat;
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+
+#content .col-main .main-wrap .recommend a.prev {
+  left: 0px;
+  background-position: -13px -440px;
+}
+
+#content .col-main .main-wrap .recommend a.prev:hover {
+  background-position: 0 -440px;
+}
+
+#content .col-main .main-wrap .recommend a.next {
+  left: 931px;
+  top: 0px;
+  height: 110px;
+  background-position: -39px -392px;
+}
+
+#content .col-main .main-wrap .recommend a.next:hover {
+  background-position: -26px -392px;
+}
+
+#content .col-main .main-wrap .recommend .scroller {
+  position: relative;
+  width: 860px;
+  margin: auto;
+  padding-top: 3px;
+  overflow: hidden;
+  height: 107px;
+}
+
+#content .col-main .main-wrap .recommend .scroller .book-ul li {
+  float: left;
+  background: none;
+  height: 100px;
+  margin-bottom: 3px;
+  line-height: 18px;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+#content .col-main .main-wrap .recommend .scroller .book-ul li .tbook-img {
+  display: block;
+  float: left;
+}
+
+#content .col-main .main-wrap .recommend .scroller .book-ul li .tbook-info {
+  padding: 4px 2px 0 2px;
+  width: 109px;
+  float: left;
+}
+
+#content .col-main .main-wrap .recommend .scroller .book-ul li .tbook-name {
+  height: 40px;
+  padding-bottom: 5px;
+}
+
+#content .col-main .main-wrap .msg {
+  margin-top: 10px;
+}
+
+#content .col-main .main-wrap .msg .msg-tips {
+  border: 1px solid #ffcc7f;
+  background: #ffffe5;
+}
+
+#content .col-main .main-wrap .msg .msg-tips .msg-icon {
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 1px 5px 1px 0;
+  font-size: 0;
+  line-height: 0;
+  background: url(../img/msg.png) no-repeat 0 -160px;
+}
+
+#content .col-main .main-wrap .msg .mes-default {
+  padding: 2px 5px;
+  position: relative;
+}
+
+#content .col-main .main-wrap .msg .msg-title {
+  display: inline;
+  padding-right: 2px;
+  font-weight: bold;
+}
+
+#content .col-main .main-wrap .msg .msg-content {
+  display: inline;
+}
+
+#content .col-main .main-wrap .rank {
+  border-bottom: 2px solid #EBEBEB;
+  border-top: 2px solid #EBEBEB;
+  height: 27px;
+  padding-left: 10px;
+  padding-top: 9px;
+  margin-top: 10px;
+}
+
+#content .col-main .main-wrap .rank a {
+  background-image: url("../img/search-icon.png");
+  background-repeat: no-repeat;
+  color: #363636;
+  display: block;
+  float: left;
+  height: 19px;
+  line-height: 19px;
+}
+
+#content .col-main .main-wrap .rank a.sort {
+  width: 47px;
+  background-position: 0 0;
+  cursor: default;
+}
+
+#content .col-main .main-wrap .rank .rank_l {
+  float: left;
+  padding-left: 15px;
+  width: 200px;
+}
+
+#content .col-main .main-wrap .rank .rank_l input {
+  vertical-align: middle;
+}
+
+#content .col-main .main-wrap .rank .rank_l label {
+  padding: 0 10px 0 5px;
+  vertical-align: middle;
+}
+
+#content .col-main .main-wrap .rank .rank_r {
+  float: right;
+  padding-right: 15px;
+}
+
+#content .col-main .main-wrap .rank a.default {
+  background-position: -47px 0;
+  width: 49px;
+}
+
+#content .col-main .main-wrap .rank a.default:hover, #content .col-main .main-wrap .rank a.default-current {
+  background-position: -47px -23px;
+  width: 49px;
+}
+
+#content .col-main .main-wrap .rank a.sales {
+  background-position: -96px 0;
+  width: 48px;
+}
+
+#content .col-main .main-wrap .rank a.sales:hover, #content .col-main .main-wrap .rank a.sales-current {
+  background-position: -95px -23px;
+  margin-left: -1px;
+  width: 49px;
+}
+
+#content .col-main .main-wrap .rank a.prices {
+  background-position: -144px 0;
+  width: 47px;
+}
+
+#content .col-main .main-wrap .rank a.prices:hover, #content .col-main .main-wrap .rank a.prices-current {
+  background-position: -143px -23px;
+  margin-left: -1px;
+  width: 48px;
+}
+
+#content .col-main .main-wrap .rank a.prices-current1 {
+  background-position: -143px -46px;
+  margin-left: -1px;
+  width: 48px;
+}
+
+#content .col-main .main-wrap .rank a.discount {
+  background-position: -191px 0;
+  width: 47px;
+}
+
+#content .col-main .main-wrap .rank a.discount:hover, #content .col-main .main-wrap .rank a.discount-current {
+  background-position: -190px -23px;
+  margin-left: -1px;
+  width: 48px;
+}
+
+#content .col-main .main-wrap .rank a.discount-current1 {
+  background-position: -190px -46px;
+  margin-left: -1px;
+  width: 48px;
+}
+
+#content .col-main .main-wrap .rank a.times {
+  background-position: -238px 0;
+  width: 73px;
+}
+
+#content .col-main .main-wrap .rank a.times:hover, #content .col-main .main-wrap .rank a.times-current {
+  background-position: -237px -23px;
+  margin-left: -1px;
+  width: 74px;
+}
+
+#content .col-main .main-wrap .rank a.times-current1 {
+  background-position: -237px -46px;
+  margin-left: -1px;
+  width: 74px;
+}
+
+#content .col-main .main-wrap #book-list {
+  margin-top: 10px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar {
+  border-bottom: 1px solid #E2E2E2;
+  padding: 18px 8px 10px 8px;
+  height: 100%;
+  overflow: auto;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul li {
+  float: left;
+  overflow: hidden;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .s-book-img {
+  padding-right: 10px;
+  width: 130px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .s-book-info {
+  padding-right: 10px;
+  padding-top: 4px;
+  width: 600px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .s-book-info .s-book-name {
+  line-height: 22px;
+  padding-bottom: 4px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .s-book-info .s-book-name a {
+  color: #546f60;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .s-book-info .authors {
+  line-height: 25px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .s-book-info .summary {
+  color: #9D9D9D;
+  line-height: 22px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .legend {
+  text-align: center;
+  width: 110px;
+}
+
+#content .col-main .main-wrap #book-list .single-bar ul .legend a {
+  margin: 5px auto 0;
+}
+
+#content .col-main .main-wrap #book-list .pages {
+  clear: both;
+  height: 22px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#content .col-main .main-wrap #book-list .pages .stat-page {
+  background: url("../img/page.png") no-repeat scroll 8px 0 transparent;
+  border: 1px solid #bfc0c0;
+  padding: 0;
+  width: 20px;
+}
+
+#content .col-main .main-wrap #book-list .pages .stop {
+  cursor: default;
+}
+
+#content .col-main .main-wrap #book-list .pages a {
+  border: 1px solid #bfc0c0;
+}
+
+#content .col-main .main-wrap #book-list .pages .page-next {
+  background: url("../img/page.png") no-repeat scroll 47px -23px transparent;
+  padding: 0 15px 0 7px;
+  border: 1px solid #bfc0c0;
+}

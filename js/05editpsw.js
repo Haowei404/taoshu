@@ -1,0 +1,1 @@
+"use strict";$(function(){var a=getCookie("admin");$(".btn-success").click(function(){$("#pwd").val()==$("#pwd2").val()&&$.ajax({type:"post",data:{mes:"changepwd",adminname:a,password:$("#pwd").val()},url:"../api/admin.php",success:function(a){"success"==a?(alert("修改成功"),$("#pwd").val(""),$("#pwd2").val("")):alert("修改失败")}})})});
